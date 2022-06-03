@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #76E321;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="casellesrodriguez.jannay.pruebajavafxx.QuestionsController">
+   <children>
+      <Label layoutX="74.0" layoutY="51.0" text="Preguntes" />
+      <TableView layoutX="48.0" layoutY="100.0" prefHeight="229.0" prefWidth="300.0">
+        <columns>
+          <TableColumn prefWidth="65.99996948242188" text="Pregunta" />
+          <TableColumn prefWidth="112.00003051757812" text="Categoria" />
+            <TableColumn prefWidth="120.0" text="S'ha sigut utilitzada" />
+        </columns>
+      </TableView>
+      <Button id="btn_anadir" fx:id="btn_anadir" layoutX="442.0" layoutY="106.0" mnemonicParsing="false" onAction="#addQuestion" text="Afegir pregunta" />
+      <Button id="btn_eliminar" fx:id="btn_eliminar" layoutX="442.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Eliminar" />
+      <Button id="btn_categories" fx:id="btn_categories" layoutX="442.0" layoutY="232.0" mnemonicParsing="false" onAction="#goToCategories" prefHeight="25.0" prefWidth="100.0" text="Categories" />
+      <Button id="btn_tornar" fx:id="btn_tornar" layoutX="442.0" layoutY="286.0" mnemonicParsing="false" onAction="#r_return" prefHeight="25.0" prefWidth="100.0" text="Tornar" />
+   </children>
+</AnchorPane>

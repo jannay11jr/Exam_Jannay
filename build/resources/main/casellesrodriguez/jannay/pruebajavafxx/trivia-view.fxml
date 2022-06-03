@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="casellesrodriguez.jannay.pruebajavafxx.TriviaController">
+   <children>
+      <Label layoutX="111.0" layoutY="59.0" text="Selecciona l'opció correcta de la pregunta" />
+      <Label layoutX="111.0" layoutY="130.0" prefHeight="17.0" prefWidth="309.0" text="Pregunta" />
+      <SplitMenuButton alignment="CENTER" layoutX="143.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="197.0" text="Respuestas">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </SplitMenuButton>
+      <Button id="btn_ok" fx:id="btn_ok" layoutX="248.0" layoutY="297.0" mnemonicParsing="false" text="Estoy seguro" />
+   </children>
+</AnchorPane>

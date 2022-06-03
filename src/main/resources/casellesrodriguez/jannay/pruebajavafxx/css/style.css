@@ -1,0 +1,15 @@
+.lbl {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-family: "Verdana";
+}
+
+.btn {
+    -fx-background-color:#C70039;
+    -fx-text-fill: white;
+}
+
+.btn:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #C70039;
+}

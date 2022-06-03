@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="casellesrodriguez.jannay.pruebajavafxx.CategoriesController">
+   <children>
+      <Label layoutX="259.0" layoutY="56.0" styleClass="lbl" text="Categories" />
+      <TableView layoutX="35.0" layoutY="123.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TextField layoutX="367.0" layoutY="98.0" prefHeight="25.0" prefWidth="165.0" />
+      <Button id="btn_afegir" fx:id="btn_afegir" layoutX="367.0" layoutY="159.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" styleClass="btn" text="Afegir" />
+      <Button id="btn_eliminar" fx:id="btn_eliminar" layoutX="480.0" layoutY="159.0" mnemonicParsing="false" styleClass="btn" text="Eliminar" />
+      <Button id="btn_tornar" fx:id="btn_tornar" layoutX="419.0" layoutY="297.0" mnemonicParsing="false" onAction="#r_return" prefHeight="25.0" prefWidth="113.0" styleClass="btn" text="Tornar" />
+   </children>
+</AnchorPane>

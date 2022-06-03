@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #5A265C;" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="casellesrodriguez.jannay.pruebajavafxx.MainController">
+   <children>
+      <Button id="btn_preguntas" fx:id="btn_preguntas" layoutX="45.0" layoutY="219.0" mnemonicParsing="false" onAction="#goToQuestions" prefHeight="25.0" prefWidth="173.0" styleClass="btn" text="Afegir preguntes i respostes" />
+      <Button id="btn_jugar" fx:id="btn_jugar" layoutX="45.0" layoutY="280.0" mnemonicParsing="false" onAction="#goToPlay" prefHeight="25.0" prefWidth="173.0" styleClass="btn" text="Jugar" />
+      <TableView id="tbl_main" fx:id="tbl_main" layoutX="283.0" layoutY="103.0" prefHeight="259.0" prefWidth="286.0">
+        <columns>
+          <TableColumn prefWidth="90.0" text="Posició" />
+          <TableColumn prefWidth="96.66668701171875" text="Nom" />
+            <TableColumn prefWidth="97.33331298828125" text="Punts" />
+        </columns>
+      </TableView>
+      <Label layoutX="347.0" layoutY="59.0" styleClass="lbl" text="Ganadores de las partidas" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="45.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/death_l.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
